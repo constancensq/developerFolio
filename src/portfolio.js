@@ -27,11 +27,6 @@ const socialMediaLinks = {
   github: "https://github.com/constancensq",
   linkedin: "https://www.linkedin.com/in/constance-ng/",
   gmail: "constancensq@gmail.com",
-  // gitlab: "https://gitlab.com/saadpasta",
-  // facebook: "https://www.facebook.com/saad.pasta7",
-  // medium: "https://medium.com/@saadpasta",
-  // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
-  // Instagram and Twitter are also supported in the links!
   display: true // Set true to display this section, defaults to false
 };
 
@@ -116,7 +111,7 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
+      schoolName: "Harvard Universitys",
       logo: require("./assets/images/harvardLogo.png"),
       subHeader: "Master of Science in Computer Science",
       duration: "September 2017 - April 2019",
@@ -374,7 +369,5 @@ export {
   achievementSection,
   blogSection,
   talkSection,
-  // podcastSection,
-  contactInfo,
-  // twitterDetails
+  contactInfo
 };
