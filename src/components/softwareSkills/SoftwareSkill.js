@@ -14,7 +14,8 @@ export default function SoftwareSkill() {
                 className="software-skill-inline"
                 name={skills.skillName}
               >
-                <i className={skills.fontAwesomeClassname}></i>
+                {/* <i class="devicon-flutter-plain colored"></i> */}
+                <i class={skills.fontAwesomeClassname}></i>
                 <p>{skills.skillName}</p>
               </li>
             );
