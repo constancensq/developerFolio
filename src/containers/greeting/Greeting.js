@@ -52,7 +52,7 @@ export default function Greeting() {
             {
               <img
                 alt="female img"
-                src={require("../../assets/images/female.png")}
+                src={require("../../assets/images/female.webp")}
               ></img>
             }
           </div>
