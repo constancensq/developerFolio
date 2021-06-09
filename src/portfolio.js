@@ -170,7 +170,7 @@ const bigProjects = {
   subtitle: "Technical Projects that I have worked on",
   projects: [
     {
-      image: require("./assets/images/logo.png"),
+      image: require("./assets/images/ufieLogo.png"),
       projectName: "Ufie",
       projectDesc: "Android Mobile application aimed to ease the process of scheduling meetups with friends. Features include user authentication, creation of events, friend systems and more!",
       footerLink: [
@@ -182,7 +182,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/pivot.png"),
+      image: require("./assets/images/pivotIcon.png"),
       projectName: "PIVOT",
       projectDesc: "Desktop application to assist the police investigators in keeping track of their investigations and relevant information. While it has a GUI, most of the user interactions happen using a CLI (Command Line Interface).",
       footerLink: [
@@ -197,7 +197,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/ip.png"),
+      image: require("./assets/images/duke.png"),
       projectName: "Duke Chatbot",
       projectDesc: "Desktop organizational application for managing tasks, optimized for use via a Command Line Interface (CLI) while still having the benefits of a Graphical User Interface (GUI).",
       footerLink: [

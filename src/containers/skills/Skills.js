@@ -20,7 +20,7 @@ export default function Skills() {
             {
               <img
                 alt="coding img"
-                src={require("../../assets/images/computer.jpg")}
+                src={require("../../assets/images/test.jpg")}
               ></img>
             }
           </div>
