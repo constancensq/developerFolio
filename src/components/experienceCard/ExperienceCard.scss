@@ -7,6 +7,9 @@
   border-radius: 10px;
   border: 1px solid $lightBorder1;
   max-width: 1000px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .experience-card-dark {
@@ -32,7 +35,7 @@
   -o-filter: blur(0px);
   -ms-filter: blur(0px);
   filter: blur(0px);
-  height: 11rem;
+  height: 10rem;
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -46,7 +49,7 @@
   -o-filter: blur(5px);
   -ms-filter: blur(5px);
   filter: blur(5px);
-  height: 11rem;
+  height: 10rem;
   top: 0;
   left: 0;
   width: 100%;
@@ -83,13 +86,13 @@
   object-fit: cover;
   left: 0;
   right: 0;
-  top: 7rem;
+  top: 6rem;
   margin-left: auto;
   margin-right: auto;
   background-color: white;
   padding: 0.5rem;
-  width: 7rem;
-  height: 7rem;
+  width: 6rem;
+  height: 6rem;
   box-shadow: 0 0.5rem 1rem $lightBoxShadowDarker;
   border-radius: 50%;
 }
@@ -122,6 +125,7 @@
 .experience-text-details {
   padding: 1.5rem;
   margin-top: 2rem;
+  font-size: 16px;
 }
 
 /* Media Query */
