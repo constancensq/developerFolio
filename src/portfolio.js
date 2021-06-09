@@ -68,6 +68,10 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "PostgreSQL",
       fontAwesomeClassname: "devicon-postgresql-plain colored"
+    },
+    {
+      skillName: "Git",
+      fontAwesomeClassname: "devicon-git-plain colored"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -173,10 +177,15 @@ const bigProjects = {
       image: require("./assets/images/ufieLogo.png"),
       projectName: "Ufie",
       projectDesc: "Android Mobile application aimed to ease the process of scheduling meetups with friends. Features include user authentication, creation of events, friend systems and more!",
+      projectDesc2: "Awarded Apollo 11 (second highest level) of achievement",
       footerLink: [
         {
           name: "Learn More",
           url: "https://www.youtube.com/watch?v=8L8PDYF9BP0&ab_channel=HuiQingYeoh"
+        },
+        {
+          name: "Certification",
+          url: "https://credentials.nus.edu.sg/be04c898-9519-4a09-b0ff-d939b44a52c5"
         }
         //  you can add extra buttons here.
       ]
@@ -270,7 +279,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
