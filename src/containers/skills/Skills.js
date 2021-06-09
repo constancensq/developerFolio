@@ -19,8 +19,8 @@ export default function Skills() {
           <div className="skills-image-div">
             {
               <img
-                alt="Man"
-                src={require("../../assets/images/coding.jpg")}
+                alt="coding img"
+                src={require("../../assets/images/computer.jpg")}
               ></img>
             }
           </div>
