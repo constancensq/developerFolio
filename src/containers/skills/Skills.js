@@ -20,7 +20,7 @@ export default function Skills() {
             {
               <img
                 alt="coding img"
-                src={require("../../assets/images/test.jpg")}
+                src={require("../../assets/images/computer.jpg")}
               ></img>
             }
           </div>
@@ -42,8 +42,8 @@ export default function Skills() {
               {skillsSection.subTitle}
             </p>
             <SoftwareSkill />
-            <div>
-              {/* {skillsSection.skills.map((skills, i) => {
+            {/* <div>
+              {skillsSection.skills.map((skills, i) => {
                 return (
                   <p
                     key={i}
@@ -56,8 +56,8 @@ export default function Skills() {
                     {skills}
                   </p>
                 );
-              })} */}
-            </div>
+              })}
+            </div> */}
           </div>
         </Fade>
       </div>
