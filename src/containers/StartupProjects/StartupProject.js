@@ -56,6 +56,13 @@ export default function StartupProject() {
                     </h5>
                     <p
                       className={
+                        isDark ? "dark-mode card-techStack" : "card-techStack"
+                      }
+                    >
+                      {project.techStack}
+                    </p>
+                    <p
+                      className={
                         isDark ? "dark-mode card-subtitle" : "card-subtitle"
                       }
                     >

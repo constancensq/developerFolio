@@ -176,6 +176,7 @@ const bigProjects = {
     {
       image: require("./assets/images/ufieLogo.png"),
       projectName: "Ufie",
+      techStack: "Flutter | Firebase", 
       projectDesc: "Android Mobile application aimed to ease the process of scheduling meetups with friends. Features include user authentication, creation of events, friend systems and more!",
       projectDesc2: "Awarded Apollo 11 (second highest level) of achievement",
       footerLink: [
@@ -194,6 +195,7 @@ const bigProjects = {
       image: require("./assets/images/pivotIcon.png"),
       projectName: "PIVOT",
       projectDesc: "Desktop application to assist the police investigators in keeping track of their investigations and relevant information. While it has a GUI, most of the user interactions happen using a CLI (Command Line Interface).",
+      techStack: "Java | JavaFX | JUnit",
       footerLink: [
         {
           name: "Learn More",
@@ -208,6 +210,7 @@ const bigProjects = {
     {
       image: require("./assets/images/duke.png"),
       projectName: "Duke Chatbot",
+      techStack: "Java | JavaFX",
       projectDesc: "Desktop organizational application for managing tasks, optimized for use via a Command Line Interface (CLI) while still having the benefits of a Graphical User Interface (GUI).",
       footerLink: [
         {
