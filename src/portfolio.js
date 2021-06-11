@@ -17,7 +17,7 @@ const greeting = {
     "I'm a Year Two Computer Science Undergraduate at National University of Singapore. I'm passionate about building Web and Mobile applications and I aspire to be a Software Engineer in the future!"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1czZDHOEHVdskKka-yRDHBe1DkQPjeULr/view?usp=sharing",
+    "https://drive.google.com/file/d/1tWy72jk0DfGlmiE0UGVuFjMweL4kjkrW/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
