@@ -14,10 +14,10 @@ const greeting = {
   username: "Constance Ng",
   title: "Hello, I'm Constance",
   subTitle: emoji(
-    "I'm a Year Two Computer Science Undergraduate at National University of Singapore. I'm passionate about building Web and Mobile applications and I aspire to be a Software Engineer in the future!"
+    "I'm a Year Three Computer Science Undergraduate at National University of Singapore. I'm passionate about building Web and Mobile applications and I aspire to be a Software Engineer in the future!"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1tWy72jk0DfGlmiE0UGVuFjMweL4kjkrW/view?usp=sharing",
+    "https://drive.google.com/drive/folders/1M8rV4vrC2R4Q3gt7P_cdwUy8axxdrUr7?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -48,7 +48,7 @@ const skillsSection = {
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
-  softwareSkills: [
+  programmingLang: [
     {
       skillName: "Java",
       fontAwesomeClassname: "devicon-java-plain colored"
@@ -58,9 +58,33 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "devicon-python-plain colored"
     },
     {
+      skillName: "Javascript",
+      fontAwesomeClassname: "devicon-javascript-plain colored"
+    },
+    
+  ],
+
+  softwareSkills: [
+
+    {
       skillName: "Flutter",
       fontAwesomeClassname: "devicon-flutter-plain colored"
     },
+    {
+      skillName: "React",
+      fontAwesomeClassname: "devicon-react-plain colored"
+    },
+    {
+      skillName: "HTML",
+      fontAwesomeClassname: "devicon-html5-plain colored"
+    },
+    {
+      skillName: "CSS",
+      fontAwesomeClassname: "devicon-css3-plain colored"
+    },
+  ],
+
+  backendSkills: [
     {
       skillName: "Firebase",
       fontAwesomeClassname: "devicon-firebase-plain colored"
@@ -70,8 +94,23 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "devicon-postgresql-plain colored"
     },
     {
+      skillName: "Nodejs",
+      fontAwesomeClassname: "devicon-nodejs-plain colored"
+    },
+    {
+      skillName: "Expressjs",
+      fontAwesomeClassname: "devicon-express-original colored"
+    },
+  ],
+
+  toolSkills: [
+    {
       skillName: "Git",
       fontAwesomeClassname: "devicon-git-plain colored"
+    },
+    {
+      skillName: "Figma",
+      fontAwesomeClassname: "devicon-figma-plain colored"
     }
   ],
   display: true // Set false to hide this section, defaults to true
