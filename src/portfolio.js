@@ -173,7 +173,7 @@ const workExperiences = {
       role: "Software Engineer Intern",
       company: "Elixir Technology",
       companylogo: require("./assets/images/smallElixirLogo.png"),
-      date: "May 2021 – Present",
+      date: "May 2021 – July 2021",
       desc: "Develop a Cloud Portal for Elixir's Product, Ambience 2020 to onboard new users to easily test out the product",
       descBullets: [
         "Built with Flutter and Google Firebase",
