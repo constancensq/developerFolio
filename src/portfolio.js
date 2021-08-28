@@ -212,6 +212,23 @@ const bigProjects = {
   title: "Projects",
   subtitle: "Technical Projects that I have worked on",
   projects: [
+    {    image: require("./assets/images/smart-brain.png"),
+    projectName: "Smart Brain",
+    techStack: "React | Node | Express | PostgreSQL | HTML/CSS | Javascript", 
+    projectDesc: "Web application which uses Clarifai's Machine Learning Face Recognition API to detect faces from image URL provided",
+    projectDesc2: "Deployed with Heroku",
+    footerLink: [
+      {
+        name: "See Website",
+        url: "https://facerecog-brain-app.herokuapp.com/"
+      },
+      {
+        name: "Source Code",
+        url: "https://github.com/constancensq/facerecognitionbrain"
+      }
+      //  you can add extra buttons here.
+    ]
+    },
     {
       image: require("./assets/images/ufieLogo.png"),
       projectName: "Ufie",
