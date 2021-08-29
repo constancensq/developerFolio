@@ -49,7 +49,7 @@ export default class Main extends Component {
           <Greeting />
           <Skills />
           <StartupProject />
-          {/* <Projects /> */}
+          <Projects />
           <Education />
           <StackProgress />
           <WorkExperience />
