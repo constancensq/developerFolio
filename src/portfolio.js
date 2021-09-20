@@ -61,7 +61,7 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "Javascript",
       fontAwesomeClassname: "devicon-javascript-plain colored"
     },
-    
+
   ],
 
   softwareSkills: [
@@ -212,29 +212,30 @@ const bigProjects = {
   title: "Projects",
   subtitle: "Technical Projects that I have worked on",
   projects: [
-    {    image: require("./assets/images/smart-brain.png"),
-    projectName: "Smart Brain",
-    techStack: "React | Node | Express | PostgreSQL | HTML/CSS | Javascript", 
-    projectDesc: "Web application which uses Clarifai's Machine Learning Face Recognition API to detect faces from image URL provided",
-    projectDesc2: "Deployed with Heroku",
-    footerLink: [
-      {
-        name: "See Website",
-        url: "https://facerecog-brain-app.herokuapp.com/"
-      },
-      {
-        name: "Source Code",
-        url: "https://github.com/constancensq/facerecognitionbrain"
-      }
-      //  you can add extra buttons here.
-    ]
+    {
+      image: require("./assets/images/smart-brain.png"),
+      projectName: "Smart Brain",
+      techStack: "React | Node | Express | PostgreSQL | HTML/CSS | Javascript",
+      projectDesc: "Web application which uses Clarifai's Machine Learning Face Recognition API to detect faces from image URL provided",
+      projectDesc2: "Deployed with Heroku",
+      footerLink: [
+        {
+          name: "See Website",
+          url: "https://facerecog-brain-app.herokuapp.com/"
+        },
+        {
+          name: "Source Code",
+          url: "https://github.com/constancensq/facerecognitionbrain"
+        }
+        //  you can add extra buttons here.
+      ]
     },
     {
-      image: require("./assets/images/ufieLogo.png"),
+      image: require("./assets/images/ufie.jpeg"),
       projectName: "Ufie",
-      techStack: "Flutter | Firebase", 
+      techStack: "Flutter | Firebase",
       projectDesc: "Android Mobile application aimed to ease the process of scheduling meetups with friends. Features include user authentication, creation of events, friend systems and more!",
-      projectDesc2: "Awarded Apollo 11 (second highest level) of achievement",
+      projectDesc2: "Awarded Apollo 11 (Advanced) level of achievement",
       footerLink: [
         {
           name: "Learn More",
@@ -276,7 +277,7 @@ const bigProjects = {
         {
           name: "Source Code",
           url: "https://github.com/constancensq/ip"
-        } 
+        }
       ]
     }
   ],
@@ -330,7 +331,7 @@ const achievementSection = {
       subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
       image: require("./assets/images/pwaLogo.webp"),
       footerLink: [
-        {name: "Certification", url: ""},
+        { name: "Certification", url: "" },
         {
           name: "Final Project",
           url: "https://pakistan-olx-1.firebaseapp.com/"
