@@ -14,7 +14,7 @@ const greeting = {
   username: "Constance Ng",
   title: "Hello, I'm Constance",
   subTitle: emoji(
-    "I'm a Year Three Computer Science Undergraduate at National University of Singapore. I'm passionate about building Web and Mobile applications and I aspire to be a Software Engineer in the future!"
+    "I'm a Year 4 Computer Science Undergraduate at National University of Singapore. I'm passionate about building Web and Mobile applications and I aspire to be a Software Engineer in the future!"
   ),
   resumeLink:
     "https://drive.google.com/drive/folders/1M8rV4vrC2R4Q3gt7P_cdwUy8axxdrUr7?usp=sharing",
@@ -71,8 +71,12 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "devicon-flutter-plain colored"
     },
     {
-      skillName: "React",
+      skillName: "React.js",
       fontAwesomeClassname: "devicon-react-plain colored"
+    },
+    {
+      skillName: "Vue.js",
+      fontAwesomeClassname: "devicon-vuejs-plain colored"
     },
     {
       skillName: "HTML",
@@ -86,12 +90,16 @@ https://fontawesome.com/icons?d=gallery */
 
   backendSkills: [
     {
-      skillName: "Firebase",
-      fontAwesomeClassname: "devicon-firebase-plain colored"
+      skillName: "Golang",
+      fontAwesomeClassname: "devicon-go-original-wordmark colored"
     },
     {
       skillName: "PostgreSQL",
       fontAwesomeClassname: "devicon-postgresql-plain colored"
+    },
+    {
+      skillName: "Firebase",
+      fontAwesomeClassname: "devicon-firebase-plain colored"
     },
     {
       skillName: "Nodejs",
@@ -170,6 +178,19 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Software Engineer Intern - Backend Antifraud",
+      company: "Shopee Pte Ltd",
+      companylogo: require("./assets/images/shopeeLogo.webp"),
+      date: "May 2022 – July 2022",
+      desc: "Developed features to update team’s internal website to improve convenience & productivity",
+      descBullets: [
+        "Built with Vue.js, Golang, MySQL",
+        "Implemented an auto-nomination system to nominate the next host for weekly meetings",
+        "Created filters for calendar events and functionality to cache them on the browser",
+        "Developed a feature to show on-leave status of the team members"
+      ]
+    },
+    {
       role: "Software Engineer Intern",
       company: "Elixir Technology",
       companylogo: require("./assets/images/smallElixirLogo.png"),
@@ -180,7 +201,8 @@ const workExperiences = {
         "Include authentication features (sign in/ sign up), content on the product to attract new users to try out the product",
         "Responsive layout so that website can be viewed through different devices"
       ]
-    }
+    },
+    
     // {
     //   role: "Front-End Developer",
     //   company: "Quora",
