@@ -180,7 +180,7 @@ const workExperiences = {
     {
       role: "Software Engineer Intern - Backend Antifraud",
       company: "Shopee Pte Ltd",
-      companylogo: require("./assets/images/shopeeLogo.webp"),
+      companylogo: require("./assets/images/shopee.png"),
       date: "May 2022 – July 2022",
       desc: "Developed features to update team’s internal website to improve convenience & productivity",
       descBullets: [
