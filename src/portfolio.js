@@ -178,13 +178,25 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Backend Engineer Intern",
+      company: "TikTok Pte Ltd",
+      companylogo: require("./assets/images/tik-tok.png"),
+      date: "Aug 2022 – Nov 2022",
+      desc: "Golang | MySQL | Hive | Pyspark",
+      descBullets: [
+        "Improved existing label production service to allow generation of labels using more general rules, increasing the flexibility of the service and optimising the label generation procedure for complex labels",
+        "Designed and implemented label production rules to transform and migrate data to a new database, supporting the migration of millions of data points managed by the team",
+        "Extended existing labels to provide additional information to support the team’s business requirements",
+        "Collaborated with the frontend team to integrate webpage with backend service to display label information"
+      ]
+    },
+    {
       role: "Software Engineer Intern - Backend Antifraud",
       company: "Shopee Pte Ltd",
       companylogo: require("./assets/images/shopee.png"),
       date: "May 2022 – July 2022",
-      desc: "Developed features to update team’s internal website to improve convenience & productivity",
+      desc: "Vue.js | Golang | MySQL",
       descBullets: [
-        "Built with Vue.js, Golang, MySQL",
         "Implemented an auto-nomination system to nominate the next host for weekly meetings",
         "Created filters for calendar events and functionality to cache them on the browser",
         "Developed a feature to show on-leave status of the team members"
@@ -195,14 +207,15 @@ const workExperiences = {
       company: "Elixir Technology",
       companylogo: require("./assets/images/smallElixirLogo.png"),
       date: "May 2021 – July 2021",
-      desc: "Develop a Cloud Portal for Elixir's Product, Ambience 2020 to onboard new users to easily test out the product",
+      desc: "Flutter Web | Google Firebase",
       descBullets: [
-        "Built with Flutter and Google Firebase",
-        "Include authentication features (sign in/ sign up), content on the product to attract new users to try out the product",
-        "Responsive layout so that website can be viewed through different devices"
+        "Developed a responsive web application to onboard new users to test out Elixir’s product",
+        "Implemented authentication features using Firebase Authentication",
+        "Retrieved and stored information from/to Firebase Storage",
+        "Discussed website’s features and designed User Interface with team members and supervisor"
       ]
     },
-    
+
     // {
     //   role: "Front-End Developer",
     //   company: "Quora",
