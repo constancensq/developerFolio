@@ -252,11 +252,11 @@ const bigProjects = {
       projectName: "Smart Brain",
       techStack: "React | Node | Express | PostgreSQL | HTML/CSS | Javascript",
       projectDesc: "Web application which uses Clarifai's Machine Learning Face Recognition API to detect faces from image URL provided",
-      projectDesc2: "Deployed with Heroku",
+      projectDesc2: "Deployed with Render",
       footerLink: [
         {
           name: "See Website",
-          url: "https://facerecog-brain-app.herokuapp.com/"
+          url: "https://facerecognitionfe.onrender.com"
         },
         {
           name: "Source Code",
